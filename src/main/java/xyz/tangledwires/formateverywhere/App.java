@@ -1,13 +1,15 @@
-package xyz.tangledwires.formatsigns;
+package xyz.tangledwires.formateverywhere;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import xyz.tangledwires.formatsigns.events.FormatSignText;
+import xyz.tangledwires.formateverywhere.events.FormatBookText;
+import xyz.tangledwires.formateverywhere.events.FormatSignText;
 
 public class App extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new FormatSignText(), this);
+        getServer().getPluginManager().registerEvents(new FormatBookText(), this);
         getLogger().info("Enabled " + this.getDescription().getFullName());
     }
     @Override

@@ -1,4 +1,4 @@
-package xyz.tangledwires.formatsigns.events;
+package xyz.tangledwires.formateverywhere.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
