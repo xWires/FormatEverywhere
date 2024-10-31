@@ -1,5 +1,11 @@
 name: FormatEverywhere
 main: xyz.tangledwires.formateverywhere.FormatEverywhere
 version: 1
-api-version: 1.20
+api-version: 1.21
 author: xWires
+commands:
+  formateverywhere:
+    description: Manage FormatEverywhere!
+    usage: /formateverywhere reload
+    permission: formateverywhere.admin
+    permission-message: You don't have permission.
