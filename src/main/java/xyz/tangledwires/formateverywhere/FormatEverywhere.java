@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import xyz.tangledwires.formateverywhere.events.FormatBookText;
 import xyz.tangledwires.formateverywhere.events.FormatSignText;
 
-public class App extends JavaPlugin {
+public class FormatEverywhere extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new FormatSignText(), this);
